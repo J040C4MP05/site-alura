@@ -1,7 +1,14 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to top, #FF7500, #B50ACF)
+}
+
 header{
     background: rgba(255, 255, 255, 0.219);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(212, 25, 250, 0.3);
-}a
+}
