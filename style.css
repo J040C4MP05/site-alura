@@ -1,14 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 html{
     height: 100%;
 }
 body{
-    background-image: linear-gradient(to top, #FF7500, #B50ACF)
-}
+    height: 100%;
+    background: radial-gradient(77.33% 77.33% at 50% 78.46%, #E68A11 0%, #F27121 24.35%, rgba(239, 89, 72, 0.81) 48.44%, rgba(236, 69, 105, 0.81) 69.27%, rgba(171, 48, 214, 0.72) 100%);}
 
-header{
+
+    nav{
     background: rgba(255, 255, 255, 0.219);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(212, 25, 250, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-texto{
+    display: flex;
+}
+
+.logo-texto h1{
+}
+
+.logo-texto img{
+    margin-left: 20px;
+    width: 64px;
+    height: 64px;
 }
