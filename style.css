@@ -29,6 +29,10 @@ body{
 
 nav ul{
     list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-right: 16px;
 }
 
 nav li a{
@@ -41,12 +45,15 @@ nav li a{
 
 .logo-texto h1{
     font-weight: 700;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 .logo-texto img{
-    margin-left: 20px;
+    margin-left: 2  0px;
     width: 64px;
     height: 64px;
+    margin-left: 5px;
 }
 
 header{
@@ -70,4 +77,11 @@ line-height: 75px;
 header p{
     width: 599px;
 height: 111px;
+}
+
+.ondas img{
+    margin-left: -750px;
+    margin-top: 150px;
+    width: 4000px;
+    height: 410px;
 }
